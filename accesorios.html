@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Prendas</title>
+        <script src="accesorios.js" async></script>
+        <link rel="stylesheet" href="accesorios.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+        <div class="container">
+            <header>
+                <h1>Accesorios Disponibles</h1>
+            </header>
+            <section class="contenedor">
+                <div class="contenedor-items">
+                    <div class="item"> 
+                        <span class="titulo-item">Kit de pulseras</span>
+                        <img src="ImagenPulseras.jpg" alt="" class="img-item">
+                        <span class="precio-item">Q. 70.00</span>
+                        <button class="boton-item">Agregar al carrito</button>
+                    </div>
+                    <div class="item"> 
+                        <span class="titulo-item">Kit de lentes blanco y negro</span>
+                        <img src="ImagenLentes.jpg" alt="" class="img-item">
+                        <span class="precio-item">Q. 150.00</span>
+                        <button class="boton-item">Agregar al carrito</button>
+                    </div>
+                    <div class="item"> 
+                        <span class="titulo-item">Kit lentes CL negro y blanco</span>
+                        <img src="ImagenCuadrados.jpg" alt="" class="img-item">
+                        <span class="precio-item">Q. 150.00</span>
+                        <button class="boton-item">Agregar al carrito</button>
+                    </div>
+                    <div class="item"> 
+                        <span class="titulo-item">Sombrero Negro</span>
+                        <img src="ImagenGorraNegra.jpg" alt="" class="img-item">
+                        <span class="precio-item">Q. 200.00</span>
+                        <button class="boton-item">Agregar al carrito</button>
+                    </div>
+                    <div class="item"> 
+                        <span class="titulo-item">Sombrero de Vaquita</span>
+                        <img src="ImagenGorra.jpg" alt="" class="img-item">
+                        <span class="precio-item">Q. 200.00</span>
+                        <button class="boton-item">Agregar al carrito</button>
+                    </div>
+                    <div class="item"> 
+                        <span class="titulo-item">Kit de Moñas</span>
+                        <img src="ImagenMonos.jpg" alt="" class="img-item">
+                        <span class="precio-item">Q. 50.00</span>
+                        <button class="boton-item">Agregar al carrito</button>
+                    </div>
+                    <div class="item"> 
+                        <span class="titulo-item">Kit de ganchos</span>
+                        <img src="ImagenGanchos.jpg" alt="" class="img-item">
+                        <span class="precio-item">Q. 99.00</span>
+                        <button class="boton-item">Agregar al carrito</button>
+                    </div>
+                    <div class="item"> 
+                        <span class="titulo-item">Aretes de Corazón</span>
+                        <img src="ImagenAretes.jpg" alt="" class="img-item">
+                        <span class="precio-item">Q. 99.00</span>
+                        <button class="boton-item">Agregar al carrito</button>
+                    </div>
+                    <div class="item"> 
+                        <span class="titulo-item">Pulsera Aht</span>
+                        <img src="ImagenPulsera.jpg" alt="" class="img-item">
+                        <span class="precio-item">Q. 50.00</span>
+                        <button class="boton-item">Agregar al carrito</button>
+                    </div>
+                    <div class="item"> 
+                        <span class="titulo-item">Diadema Ls</span>
+                        <img src="ImagenDiadema.jpg" alt="" class="img-item">
+                        <span class="precio-item">Q. 99.00</span>
+                        <button class="boton-item">Agregar al carrito</button>
+                    </div>
+                    <div class="item"> 
+                        <span class="titulo-item">Kit de Cronchs</span>
+                        <img src="ImagenColas.jpg" alt="" class="img-item">
+                        <span class="precio-item">Q. 20.00</span>
+                        <button class="boton-item">Agregar al carrito</button>
+                    </div>
+                    <div class="item"> 
+                        <span class="titulo-item">Kit de Collares</span>
+                        <img src="ImagenCollares.jpg" alt="" class="img-item">
+                        <span class="precio-item">Q. 60.00</span>
+                        <button class="boton-item">Agregar al carrito</button>
+                    </div>
+                </div>
+
+                <div class="carrito">
+                    <div class="header-carrito">
+                        <h2>Tu carrito</h2>
+                    </div>
+
+                    <div class="carrito-items">
+                        <!--
+
+
+                        <div class="carrito-item">
+                            <img src="ImagenPulseras.jpg" alt="" width="80px">
+                            <div class="carrito-item-detalles">
+                                <span class="carrito-item-titulo">Kit de pulseras</span>
+                                <div class="selector-cantidad">
+                                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                                    <input type="text" value="1" class="carrito-item-cantidad" disabled> 
+                                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                                </div>
+                                <span class="carrito-item-precio">Q. 70.00</span>
+                            </div>
+                            <span class="btn-eliminar">
+                                <i class="fa-solid fa-trash"></i>
+                            </span>
+                        </div>
+
+                        <div class="carrito-item">
+                            <img src="ImagenLentes.jpg" alt="" width="80px">
+                            <div class="carrito-item-detalles">
+                                <span class="carrito-item-titulo">Kit de Lentes blanco y negro</span>
+                                <div class="selector-cantidad">
+                                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                                    <input type="text" value="2" class="carrito-item-cantidad" disabled> 
+                                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                                </div>
+                                <span class="carrito-item-precio">Q. 150.00</span>
+                            </div>
+                            <span class="btn-eliminar">
+                                <i class="fa-solid fa-trash"></i>
+                            </span>
+                        </div>
+                        -->
+                    </div>
+
+                    <div class="carrito-total">
+                        <div class="fila">
+                            <strong>Tu Total</strong>
+                            <span class="carrito-precio-total">
+                                Q. 00.00
+                            </span>
+                        </div>
+                        <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+            </section>
+    </body>
+
+</html>
